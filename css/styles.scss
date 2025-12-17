@@ -39,6 +39,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   margin: 12px auto;
 }
 
+.hero {
+  min-height: 70vh;   /* prøv 60–75vh */
+}
 
 .text-image-wrapper {
   display: inline-block;       /* wrapper følger billedets bredde */
@@ -102,7 +105,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   display: inline-block;
   margin-top: 10px;
   font-weight: 600;
-  color: #0d6efd;
+  color: #010101;
 }
 
 /* Feature list */
@@ -121,7 +124,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 /* Knap */
 .btn-custom {
-  background: linear-gradient(45deg, #6c5ce7, #a363d9);
+  background: linear-gradient(45deg, #f5f3a3, #f5f3a3);
   border: none;
   padding: 12px 30px;
   transition: all 0.3s ease;
@@ -139,6 +142,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   }
 }
 
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 20px; /* afstand over og under ikonet */
+}
+
+.footer-icon img {
+  width: 120px;   /* justér størrelsen */
+  height: auto;
+}
 
 footer {
   background-color: #010101;
