@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar-gradient fixed-top">
     <div class="container">
-        <a class="navbar-brand logo" href="#">
+        <a class="navbar-brand logo text-dark" href="#">
             <i class="fas fa-gem"></i>
             Connected Starters
         </a>
@@ -38,19 +38,15 @@
         <div class="collapse navbar-collapse" id="navbarNav2">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
+                    <a class="btn btn-outline-dark ms-2"  href="#">Forside</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="btn btn-outline-dark ms-2"  href="#">Om os</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn-outline-light ms-2" href="#">Contact Us</a>
+                    <a class="btn btn-outline-dark ms-2" href="#">Kontakt os</a>
                 </li>
             </ul>
         </div>
@@ -62,18 +58,18 @@
 <br>
 
 <!-- min overskrift -->
-<h1 class="text-center"> Connected Starters </h1>
+<h1 class="text-center fw-bold"> Connected Starters </h1>
 <div class ="divider"></div>
 <br>
 
 
 <div class="d-flex justify-content-center">
     <div class="text-image-wrapper text-center">
-        <img src="img/ForsideBillede.png" alt="Forside billede" class="hero-img img-fluid">
-        <h2 class="mt-4 mb-2">Har du en god ide?</h2>
+        <img src="img/TrePersonerForside.png" alt="TrePersForsideBillede" class="hero-img img-fluid">
+        <h2 class="mt-4 mb-2 fw-bold">Har du en god ide?</h2>
         <p class="mx-5">
             <br>
-            Eller bare en fornemmelse af, at der er noget, du vil bygge op selv? Hos Zealand Connected Starters hjælper vi dig med at tage de første skridt mod at blive iværksætter.
+            Eller bare en fornemmelse af, at der er noget, du vil bygge op selv? Hos Zealand Connected Starters hjælper vi dig med at tage de første skridt mod at blive iværksætter.
 
             Du behøver ikke have alle svarene på forhånd. Hos os bliver du mødt i øjenhøjde og får personlig coaching, konkrete værktøjer og faglig sparring, så du bliver klædt godt på til iværksætterlivet.
             <br>
@@ -91,64 +87,78 @@
 </div>
 <br>
 <br>
-<div class ="divider"></div>
+<div class ="divider"></div> <!-- min gule streg under brødtekst-->
+
+<!-- mine tre billeder-->
+
+
 
 <div class="container py-5">
     <div class="row justify-content-center g-4">
-        <!-- Starter Card -->
+
+        <!-- Første -->
         <div class="col-md-4">
             <div class="pricing-card card h-100 p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Starter</h5>
-                    <h2 class="display-4 fw-bold mb-4">$19</h2>
-                    <p class="text-muted mb-4">Perfect for small businesses</p>
-                    <ul class="list-unstyled feature-list mb-4">
-                        <li>5 Team Members</li>
-                        <li>10GB Storage</li>
-                        <li>Basic Analytics</li>
-                        <li>Email Support</li>
-                    </ul>
-                    <button class="btn btn-custom text-white w-100">Get Started</button>
+                <div class="card-body text-center d-flex flex-column">
+
+                    <h5 class="card-title text-muted text-uppercase">
+                        Læs om Louises op og nedture på vejen mod at blive iværksætter
+                    </h5>
+
+                    <div class="image-wrapper">
+                        <img src="img/LouiseBlødKant.png" alt="Louise">
+                    </div>
+
+                    <button class="btn btn-custom text-white w-100 mt-auto">
+                        Læs mere
+                    </button>
+
                 </div>
             </div>
         </div>
 
-        <!-- Premium Card -->
+        <!-- Anden -->
         <div class="col-md-4">
-            <div class="pricing-card card h-100 p-4 border-2 border-primary position-relative">
-                <span class="badge bg-primary popular-badge">Popular</span>
-                <div class="card-body text-center">
-                    <h5 class="text-primary text-uppercase mb-3">Premium</h5>
-                    <h2 class="display-4 fw-bold mb-4">$49</h2>
-                    <p class="text-muted mb-4">Ideal for growing teams</p>
-                    <ul class="list-unstyled feature-list mb-4">
-                        <li>15 Team Members</li>
-                        <li>50GB Storage</li>
-                        <li>Advanced Analytics</li>
-                        <li>24/7 Support</li>
-                    </ul>
-                    <button class="btn btn-custom text-white w-100">Get Started</button>
+            <div class="pricing-card card h-100 p-4 border-2 border-primary">
+                <div class="card-body text-center d-flex flex-column">
+
+                    <h5 class="card-title text-dark text-uppercase">
+                        Fællesskab og netværk – Du er ikke alene – Her kan du møde
+                    </h5>
+
+                    <div class="image-wrapper">
+                        <img src="img/ZealandBlødKant.png" alt="Studerende flok">
+                    </div>
+
+                    <button class="btn btn-custom text-white w-100 mt-auto">
+                        Læs mere
+                    </button>
+
                 </div>
             </div>
         </div>
 
-        <!-- Enterprise Card -->
+        <!-- Tredje -->
         <div class="col-md-4">
             <div class="pricing-card card h-100 p-4">
-                <div class="card-body text-center">
-                    <h5 class="text-muted text-uppercase mb-3">Enterprise</h5>
-                    <h2 class="display-4 fw-bold mb-4">$99</h2>
-                    <p class="text-muted mb-4">For large organizations</p>
-                    <ul class="list-unstyled feature-list mb-4">
-                        <li>Unlimited Members</li>
-                        <li>500GB Storage</li>
-                        <li>Custom Analytics</li>
-                        <li>Priority Support</li>
-                    </ul>
-                    <button class="btn btn-custom text-white w-100">Get Started</button>
+                <div class="card-body text-center d-flex flex-column">
+
+                    <h5 class="card-title text-muted text-uppercase">
+                        Sådan kommer du på rette vej – Struktur og vejledning
+                    </h5>
+
+                    <div class="image-wrapper">
+                        <img src="img/VejledningForside.png" alt="Vejledning">
+                    </div>
+
+                    <button class="btn btn-custom text-white w-100 mt-auto">
+                        Læs mere
+                    </button>
+
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
